@@ -1,2 +1,2 @@
-# my-first-repo
+# Bioinforepo
 Repository for my bioinformatics course. 
