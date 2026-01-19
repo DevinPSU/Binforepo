@@ -1,8 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.ossila.com/products/titanium-dioxide-nanoparticles"
-
+url = input("Please paste the URL you want to scrape: ")
 try:
     response = requests.get(url)
     
