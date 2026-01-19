@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.ossila.com/products/nickel-ii-oxide-powder"
+url = "https://www.ossila.com/products/titanium-dioxide-nanoparticles"
 
 try:
     response = requests.get(url)
