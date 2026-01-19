@@ -11,7 +11,7 @@ try:
         # Finding the data as per your structure
         headings = soup.find_all('h1')
         synonyms = soup.find_all('td')
-        references = soup.find_all('ol')
+        references = soup.find_all('ol' and 'ul')
         
         print(f"--- Headings ---")
         for i, tag in enumerate(headings, 1):
