@@ -22,7 +22,7 @@ try:
         for i, tag in enumerate(synonyms, 1):
             print(f"{i}. {tag.get_text().strip()}")
 
-        print(f"\n--- References (20 chars after DOI) ---")
+        print(f"\n--- References (35 chars after DOI) ---")
         for i, tag in enumerate(references, 1):
             full_text = tag.get_text().strip()
             
@@ -35,7 +35,7 @@ try:
                 content_start = start_index + 3
                 
                 # Slice the next 20 characters
-                doi_snippet = full_text[content_start : content_start + 20]
+                doi_snippet = full_text[content_start : content_start + 35]
                 
                 print(f"{i}. DOI content: {doi_snippet.strip()}")
 
